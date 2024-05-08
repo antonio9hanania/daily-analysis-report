@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      direction: rtl;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .aspect-ratio-text {
+      padding-bottom: 18%; /* Adjust the percentage based on the height of the text */
+    }
+
+
+	.aspect-ratio-10-3 {
+      padding-bottom: 30%; /* 16:9 aspect ratio */
+    }
+	
+	.aspect-ratio-100-41 {
+      padding-bottom: 41%; /* 100:41 aspect ratio */
+    }
+	
+	.aspect-ratio-16-9 {
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }    
+
+    .aspect-ratio-4-3 {
+      padding-bottom: 75%; /* 4:3 aspect ratio */
+    }  
+
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 20px !important;
+      }
+    }
+	div span{
+		20px !important;
+	}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>מעריב TMI ספורט1 דוח יום אתמול</h1>
+
+    <div class="iframe-container aspect-ratio-text">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTKKK4gGjYr6gl0YHmu5jISfw5TyEl-WfCTMERLUIG9SoLsz3BSU-NhR-zxLDc4ndAfvitTS0lvNG8s/pubhtml?gid=122017837&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-16-9">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/47ca49d1-97ca-47c3-9a05-d6dd87a336e4/page/kKVrC" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-text">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTKKK4gGjYr6gl0YHmu5jISfw5TyEl-WfCTMERLUIG9SoLsz3BSU-NhR-zxLDc4ndAfvitTS0lvNG8s/pubhtml?gid=1255991040&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-10-3">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/47ca49d1-97ca-47c3-9a05-d6dd87a336e4/page/p_09czhr62gd" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-text">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTKKK4gGjYr6gl0YHmu5jISfw5TyEl-WfCTMERLUIG9SoLsz3BSU-NhR-zxLDc4ndAfvitTS0lvNG8s/pubhtml?gid=1363101290&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-100-41">
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTKKK4gGjYr6gl0YHmu5jISfw5TyEl-WfCTMERLUIG9SoLsz3BSU-NhR-zxLDc4ndAfvitTS0lvNG8s/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-16-9">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/47ca49d1-97ca-47c3-9a05-d6dd87a336e4/page/p_egrz2muluc" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="iframe-container aspect-ratio-10-3">
+      <iframe src="https://lookerstudio.google.com/embed/reporting/47ca49d1-97ca-47c3-9a05-d6dd87a336e4/page/p_5qd8ds62gd" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <script src="responsive-text.js"></script>
+</body>
+</html>
